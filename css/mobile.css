@@ -1,0 +1,16 @@
+@media (max-width:768px) {
+    
+    /* xóa viền trái phải cho thanh navbar */
+    nav .col-md {
+        border-left: none !important;
+        border-right: none !important;
+    }   
+
+
+/* Thêm  padding cho mục thông tin cá nhân (mục tiêu nghề nghiệp) */
+    #target {
+        padding: 0px 0px 10px 24px;
+    }
+}
+
+    

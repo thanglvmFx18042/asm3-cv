@@ -1,0 +1,134 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif !important;
+}
+
+body a {
+    text-decoration: none;
+    color:#333;
+}
+
+
+body li::marker {
+    color:#199cdb;
+}
+
+
+/* CSS cho phần header */
+.header {
+    position: relative;
+    color:#fff;
+}
+
+#banner {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* CSS cho phần thông tin cá nhân */
+
+@media (min-width:992px) {
+#target {
+    padding-left: 250px !important;
+}
+}
+
+
+/* CSS phần thông tin nghề nghiệp */
+
+.span {
+    border: 1px solid #199cdb;
+    padding: 0px 10px;
+    background-color:#199cdb ;
+    border-radius: 5px;
+}
+
+
+/* CSS phần icon Sở thíchh */
+.interests i {
+    color: #199cdb;
+    border: 1px solid #199cdb;
+    padding: 14px 15px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+
+/* CSS phần Ngôn ngữ và Kỹ năng */
+
+.span2 {
+    display: inline-block;
+    background-color: #199cdb;
+    width: 45px;
+    height: 2px;
+}
+
+.span3 {
+    display: inline-block;
+    background-color: #adb5bd;
+    width: 45px;
+    height: 2px;
+}
+
+/* CSS cho phần nút 2021 - nền màu xanh  */
+.span4 {
+    border: 1px solid #199cdb;
+    padding: 0px 5px;
+    background-color:#199cdb ;
+    border-radius: 10px;
+} 
+
+
+/* CSS cho phần footer */
+
+
+.footer-icon {
+    border: 1px solid #199cdb;
+    padding: 12px 12px;
+    background-color: #199cdb;
+    border-radius: 50%;
+    font-size: 12px;
+    color: #f7f7f7;
+}
+
+
+
+/* CSS cho phần digital-cv */
+
+
+.number {
+    background-color: #b197fc;
+    padding: 12px 12px;
+    border: 1pcs solid #868e96;
+    border-radius: 50%;
+    max-width: 56px;
+}
+
+.table-timline {
+    border-bottom: 2px dotted #20c997;
+}
+
+
+@media (max-width:768px) {
+    .team {
+        display: grid !important;
+        grid-template-columns: 1fr 1fr;
+       
+    }
+
+}
+
+@media (min-width:768px) and (max-width:992px) {
+    .team {
+        display: grid !important;
+        grid-template-columns: 1fr 1fr;
+       
+    }
+   
+}

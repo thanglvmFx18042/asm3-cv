@@ -1,0 +1,29 @@
+@media (min-width:768px) and (max-width:992px){
+
+    /* Điều chỉnh lại padding của phần thông tin cá nhân để hiển thị gọn hơn */
+#target {
+    padding: 10px 10px 10px 24px;
+}
+
+/* Điều chỉnh vị trí các ô trong phần thông tin nghề nghiệp  */
+.job-info-1 {
+    order: 1;
+}
+.job-info-2 {
+    order: 2;
+}
+.job-info-3 {
+    order: 4;
+}
+.job-info-4 {
+    order: 5;
+}
+.job-info-5 {
+    order: 6;
+}
+.job-info-6 {
+    order: 3;
+}
+
+
+}
